@@ -1,9 +1,9 @@
 <h1>Projects</h1>
 
 <ul>
-    <li>IMY 110 Website</li>
+    <li><a href="https://lively-strudel-6aa6fa.netlify.app/">IMY 110 Website</a></li>
     <li>Amicis  Design</li>
     <li>COS 226 Website</li>
-    <li><a href="https://resplendent-syrniki-f643de.netlify.app/">IMY 220 Project</a></li>
-    <li>VIO 202 Delivarble 3</li>
+    <li><a href="https://resplendent-syrniki-f643de.netlify.app/">VIO 202 Delivarble 3</a></li>
+    <li>IMY 220 Project</li>
 </ul>
