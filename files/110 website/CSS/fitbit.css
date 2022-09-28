@@ -1,0 +1,142 @@
+/*carl de witt u21444928*/
+/*index/home page*/
+/* colours
+	#3e5336 darkgreen
+	#948f47 light green
+	#f6da73 yellow
+	#f6f5f0 white
+	#e55b7e; pink
+*/
+@font-face{
+	font-family: yes ;
+	src: url(fonts/Lourino_PERSONAL_USE_ONLY.ttf);
+}
+@font-face{
+	font-family: barlo ;
+	src: url(fonts/ZillaSlab-Light.ttf);
+}
+*{
+	font-size: 15pt;
+	font-family: barlo;
+}
+main{
+	margin: 0px;	
+}
+body{
+	background-color: #f6f5f0;
+	margin: 0;
+}
+#boxh1{
+	width: 100%;
+	height: 250px;
+	background-image: url("../device-images/general/3.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	background-color: #f6da73;
+	width: 30%;
+	text-align: center;
+	font-size: 48pt;
+	padding: 5px;
+	font-family: yes;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;	
+	background-color: #e55b7e;
+}
+ul{
+	padding: 0;
+}
+li{
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	background-color: #f6da73;
+	color: black;
+	margin: 10px 20px;
+	padding: 5px;
+}
+li:hover{
+	transform: scale(1.3);
+	z-index: 100;
+	opacity: 1;
+	border-radius: 10px;
+	transition: 1s;
+}
+#background{
+	background-image: url("../device-images/general/11.jpg");
+	background-size: cover;
+}
+#background2{
+	background-image: url("../device-images/general/16.jpg");
+	background-size: cover;
+}
+img{
+	width: 300px;
+	margin: 20px;
+}
+.imglist{
+	text-align: center;
+}
+div.features{
+	background-color: #f6da73;
+	width: 260px;
+	margin: 10px;
+}
+.features{
+	display: block !important;
+}
+.split{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div.moreinfo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: column;
+}
+div.moreinfo p{
+	max-width: 65ch;
+	background-color: white;
+	padding: 20px;
+}
+a{
+		text-decoration: none;
+}
+@media only screen and (max-width: 920px) {
+	li{
+		display: block;
+	}
+	nav{
+		height: 150px;
+	}
+	h1{
+		font-size: 38pt;
+	}
+	#spinnerflex{
+		display: flex;
+		flex-flow: column;
+	}
+
+}
+@media only screen and (max-width: 770px) {
+	h1{
+		font-size: 25pt;
+	}
+	#spinnerflex{
+		display: none;
+	}
+}
+@media only screen and (max-width: 550px) {
+	h1{
+		font-size: 15pt;
+	}
+}
